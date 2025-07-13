@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0e0e1a;
+  color: #eaeaea;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #b37aff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+  border-right: .15em solid #eaeaea;
+  white-space: nowrap;
+  animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #b37aff; }
+}
+
+input, textarea {
+  display: block;
+  width: 80%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  background: #1e1e2e;
+  color: #fff;
+  border: 1px solid #b37aff;
+  border-radius: 5px;
+}
+
+button {
+  background: #b37aff;
+  color: #0e0e1a;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #fff;
+  color: #0e0e1a;
+}
