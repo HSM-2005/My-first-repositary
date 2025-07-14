@@ -1,10 +1,14 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #0e0e1a;
-  color: #eaeaea;
+  color: #e6e6f0;
+  background-image: url('dreamy-bg.jpg'); /* use your image filename here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 header {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 1rem;
