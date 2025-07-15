@@ -8,10 +8,23 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
- 
+ }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
-
+main {
+  flex: 1;
+  padding: 2rem;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px); /* 🔥 dreamy blur through the image */
+  -webkit-backdrop-filter: blur(4px);
+  padding: 1rem;
+  text-align: center;
+}
 nav a {
   color: #b37aff;
   margin: 0 1rem;
