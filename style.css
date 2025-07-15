@@ -101,20 +101,10 @@ button:hover {
   max-width: 700px;
 }
 
-.preview-letter h3 {
-  margin-top: 0;
-  color: #ffd6fa;
-}
-
-.preview-letter p {
-  color: #dcdcdc;
-  font-size: 1em;
-}
-
+.preview-letter p,
+.preview-letter h3,
 .preview-letter a {
-  color: #8ad2ff;
-  text-decoration: none;
-  font-style: italic;
+  color: #ffffff !important;
 }
 
 .fade-in {
