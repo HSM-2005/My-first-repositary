@@ -1,3 +1,29 @@
+.hero {
+  height: 25vh; /* 25% of the viewport height */
+  background-image: url('dreamy-bg.jpg'); /* your actual image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional overlay on text */
+  padding: 1em 2em;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.about-page {
+  background-color: #ffffff;
+  padding: 2em;
+  color: #333;
+}
 body {
   margin: 0;
   padding: 0;
