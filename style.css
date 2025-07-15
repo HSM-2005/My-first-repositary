@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Courier New', Courier, monospace;
   color: #e6e6f0;
-  background-image: url('dreamy-bg.jpg'); /* use your image filename here */
+  background-image: url('background.jpg'); /* use your image filename here */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
