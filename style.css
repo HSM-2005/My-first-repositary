@@ -8,15 +8,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
- }
-body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-main {
-  flex: 1;
-  padding: 2rem;
 }
 header {
   background-color: rgba(0, 0, 0, 0.3);
@@ -36,6 +30,7 @@ nav a:hover {
 }
 
 main {
+  flex:1;
   padding: 2rem;
   text-align: center;
 }
