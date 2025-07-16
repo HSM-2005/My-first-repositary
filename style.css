@@ -158,7 +158,12 @@ button:hover {
   max-width: 700px;
 }
 
-.preview-letter p,
+.preview-letter p {
+  color: #111111;        /* solid black for sharp reading */
+  font-size: 1.1em;
+  font-weight: 500;      /* medium-bold, adjust as needed */
+  line-height: 1.6;
+}
 .preview-letter h3,
 .preview-letter a {
   color: #ffffff !important;
