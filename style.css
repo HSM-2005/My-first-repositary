@@ -159,21 +159,45 @@ button:hover {
   max-width: 700px;
 }
 body {
-  background: white;
+  font-family: 'Georgia', serif;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: black;
   font-weight: 500;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
 }
 
 .letter-preview {
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
-  background-color: #f0f0f0;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.full-letter {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  margin: 50px auto;
+  width: 85%;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
 .letter-preview a {
   text-decoration: none;
   color: #222;
@@ -182,13 +206,6 @@ body {
 
 .letter-preview a:hover {
   color: #0077cc;
-}
-
-.letter-full {
-  padding: 20px;
-  background: #ffffff;
-  border-top: 1px solid #ddd;
-  margin-top: 30px;
 }
 
 .fade-in {
