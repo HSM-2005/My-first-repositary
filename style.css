@@ -199,8 +199,47 @@ nav a {
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
-.letter-preview a:hover {
-  color: #0077cc;
+.preview-section {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down {
+  text-align: center;
+  backdrop-filter: blur(4px); /* subtle blur */
+  background-color: rgba(255, 255, 255, 0.5); /* semi-transparent bg for readability */
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 80%;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 1rem;
+}
+
+.read-more:hover {
+  background-color: #333;
+}
+
+.more-letters {
+  background-color: white;
+  padding: 3rem;
+}
+
 }
 
 .fade-in {
