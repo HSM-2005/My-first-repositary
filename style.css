@@ -240,8 +240,6 @@ nav a {
   padding: 3rem;
 }
 
-}
-
 .fade-in {
   opacity: 0;
   transform: translateY(30px);
@@ -256,19 +254,25 @@ nav a {
   }
 }
 .background-section {
+  background-image: url('background.jpg');
+  background-size: cover;
   height: 100vh;
-  background: url('background.jpg') no-repeat center center/cover;
   position: relative;
 }
 
-.scroll-down-icon {
+.scroll-down {
   position: absolute;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 30px;
-  height: 30px;
-  background: url('scroll-icon.svg') no-repeat center;
-  background-size: contain;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  animation: float 2s infinite;
 }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
 
