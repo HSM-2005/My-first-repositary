@@ -151,12 +151,13 @@ button:hover {
 }
 body {
   font-family: 'Georgia', serif;
-  background: url('bg.jpg') no-repeat center center fixed;
+  background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: black;
   font-weight: 500;
   margin: 0;
   padding: 0;
+
 }
 
 nav a {
