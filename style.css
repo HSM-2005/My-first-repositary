@@ -146,12 +146,20 @@ body {
 
 }
 
+nav {
+  position: relative;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.6); /* makes sure it's visible over the image */
+  padding: 10px;
+  text-align: center;
+}
 nav a {
   color: white;
+  font-weight: bold;
   text-decoration: none;
-  margin-right: 15px;
+  margin: 0 15px;
+  font-family: 'Georgia', serif;
 }
-
 .letter-preview {
   background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
