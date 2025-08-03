@@ -230,8 +230,8 @@ nav a {
 }
 
 .scroll-down {
-  position: relative;
-  bottom: 120px;
+  position: absolute;
+  bottom: 130px;
   width: 100%;
   text-align: center;
   color: white;
