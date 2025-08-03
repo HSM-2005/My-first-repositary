@@ -158,16 +158,37 @@ button:hover {
   font-family: 'Georgia', serif;
   max-width: 700px;
 }
-
-.preview-letter p {
-  color: #111111;        /* solid black for sharp reading */
-  font-size: 1.1em;
-  font-weight: 500;      /* medium-bold, adjust as needed */
+body {
+  background: white;
+  color: black;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
-.preview-letter h3,
-.preview-letter a {
-  color: #ffffff !important;
+
+.letter-preview {
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.letter-preview a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.letter-preview a:hover {
+  color: #0077cc;
+}
+
+.letter-full {
+  padding: 20px;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
 }
 
 .fade-in {
