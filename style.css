@@ -56,17 +56,18 @@ nav a {
   padding: 2em;
   color: #333;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Courier New', Courier, monospace;
-  color: #e6e6f0;
-  background-image: url('background.jpg'); /* use your image filename here */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('background.jpg') center/cover no-repeat;
+  z-index: -1;
+  filter: blur(5px) brightness(0.6);
+}
+
+
 }
 header {
   background-color: rgba(0, 0, 0, 0.3);
